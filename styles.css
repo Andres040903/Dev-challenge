@@ -7,7 +7,7 @@ body {
 }
 
 header, footer {
-  background-color: #0055a5;
+  background-color: #00a508;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -36,7 +36,7 @@ form input {
 
 button {
   padding: 0.5rem 1rem;
-  background-color: #0077cc;
+  background-color: #000000;
   color: white;
   border: none;
   border-radius: 4px;
@@ -44,7 +44,7 @@ button {
 }
 
 button:hover {
-  background-color: #005fa3;
+  background-color: #000000;
 }
 
 #mensajeForm {
