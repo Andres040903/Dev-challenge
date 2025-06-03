@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.dark-theme {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+header, footer {
+  background: #004080;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 1em;
+}
+
+form input, form button {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+button:hover, a:hover {
+  background-color: #0059b3;
+  color: white;
+  cursor: pointer;
+}
+
+.participantes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1em;
+}
+
+.participante {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0.5em;
+  text-align: center;
+  background-color: white;
+}
+
+.dark-theme .participante {
+  background-color: #2b2b2b;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%;
+}
