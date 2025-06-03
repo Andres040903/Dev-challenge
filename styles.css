@@ -1,68 +1,76 @@
 body {
+  background-color: #f9f9f9;
+  color: #333;
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background: #f4f4f4;
-  color: #333;
-  transition: all 0.3s ease;
-}
-
-.dark-theme {
-  background: #1e1e1e;
-  color: #fff;
+  padding: 1rem;
 }
 
 header, footer {
-  background: #004080;
+  background-color: #0055a5;
   color: white;
-  padding: 1em;
+  padding: 1rem;
   text-align: center;
 }
 
 main {
-  padding: 1em 2em;
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  gap: 2rem;
+  padding: 1rem;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  gap: 1em;
+form input {
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
 }
 
-form input, form button {
-  padding: 0.5em;
-  font-size: 1em;
-}
-
-button:hover, a:hover {
-  background-color: #0059b3;
+button {
+  padding: 0.5rem 1rem;
+  background-color: #0077cc;
   color: white;
+  border: none;
   cursor: pointer;
 }
 
-.participantes-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 1em;
+button:hover {
+  background-color: #005fa3;
 }
 
-.participante {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 0.5em;
-  text-align: center;
-  background-color: white;
+.dark-theme {
+  background-color: #121212;
+  color: #eee;
 }
 
-.dark-theme .participante {
-  background-color: #2b2b2b;
+.dark-theme header,
+.dark-theme footer {
+  background-color: #1e1e1e;
+  color: #eee;
 }
 
-img {
-  width: 100px;
-  border-radius: 50%;
+.dark-theme main,
+.dark-theme section,
+.dark-theme form,
+.dark-theme ul,
+.dark-theme li,
+.dark-theme label,
+.dark-theme input,
+.dark-theme p {
+  background-color: #1a1a1a;
+  color: #eee;
+}
+
+.dark-theme input {
+  background-color: #333;
+  border: 1px solid #666;
+  color: white;
+}
+
+.dark-theme button {
+  background-color: #444;
+  color: #fff;
+}
+
+.dark-theme button:hover {
+  background-color: #666;
 }
